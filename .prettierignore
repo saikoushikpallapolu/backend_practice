@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+.vscode
+.eslintignore
+.DS_Store

@@ -1,0 +1,17 @@
+1. to create files inside a folder use New-Item and the file names seperated with commas
+2. use mkdir to create folders
+=> nodemon is used, this restarts the backend server automatically when we save a new file
+=> .prettierrc stores the rules of writing the code
+=> .prettierignore stores the files that are to be ignored by prettier
+
+=> connection to a database can pose problems so always wrap the connection code inside try-catch blocks
+=> connection to database might also take time so always use async await as well to handle it gracefully
+
+++++++++++++++++++ MIDDLEWARES ++++++++++++++
+=> these are the checks that we do between a request and a response, like checking for the user login status
+=> using app.use() we apply these middlewares to the routes
+=> some common middlewares are cors, cookie-parser, express.json, express.urlencoded, express.static, etc
+
+=> (err,req,res,next) are the parameters that are passed to the middleware function
+=> next is used to indicate that one checkpoint has been verified proceed with the next checkpoint before the respond reaches the listening port
+
