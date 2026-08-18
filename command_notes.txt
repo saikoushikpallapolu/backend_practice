@@ -1,5 +1,6 @@
 1. to create files inside a folder use New-Item and the file names seperated with commas
 2. use mkdir to create folders
+NOTE:- CHECK THE PACKAGE.JSON FILE TO REVISE ALL THE PACKAGES THAT WE HAVE INSTALLED
 => nodemon is used, this restarts the backend server automatically when we save a new file
 => .prettierrc stores the rules of writing the code
 => .prettierignore stores the files that are to be ignored by prettier
